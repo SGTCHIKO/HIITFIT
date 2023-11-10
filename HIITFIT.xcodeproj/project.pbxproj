@@ -11,6 +11,8 @@
 		937706CA2AFC91CF005E659B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937706C92AFC91CF005E659B /* ContentView.swift */; };
 		937706CC2AFC91D5005E659B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937706CB2AFC91D5005E659B /* Assets.xcassets */; };
 		937706CF2AFC91D5005E659B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937706CE2AFC91D5005E659B /* Preview Assets.xcassets */; };
+		937706D62AFC997D005E659B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937706D52AFC997D005E659B /* WelcomeView.swift */; };
+		937706D82AFC99AE005E659B /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937706D72AFC99AE005E659B /* ExerciseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		937706C92AFC91CF005E659B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		937706CB2AFC91D5005E659B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937706CE2AFC91D5005E659B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		937706D52AFC997D005E659B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		937706D72AFC99AE005E659B /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				937706C72AFC91CF005E659B /* HIITFITApp.swift */,
-				937706C92AFC91CF005E659B /* ContentView.swift */,
+				937706D92AFC99E2005E659B /* Views */,
 				937706CB2AFC91D5005E659B /* Assets.xcassets */,
 				937706CD2AFC91D5005E659B /* Preview Content */,
 			);
@@ -65,6 +69,16 @@
 				937706CE2AFC91D5005E659B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		937706D92AFC99E2005E659B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				937706C92AFC91CF005E659B /* ContentView.swift */,
+				937706D52AFC997D005E659B /* WelcomeView.swift */,
+				937706D72AFC99AE005E659B /* ExerciseView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937706D82AFC99AE005E659B /* ExerciseView.swift in Sources */,
 				937706CA2AFC91CF005E659B /* ContentView.swift in Sources */,
+				937706D62AFC997D005E659B /* WelcomeView.swift in Sources */,
 				937706C82AFC91CF005E659B /* HIITFITApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
